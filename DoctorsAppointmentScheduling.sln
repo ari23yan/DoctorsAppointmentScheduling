@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorsAppointmentScheduling.Presentation", "DoctorsAppointmentScheduling.Presentation\DoctorsAppointmentScheduling.Presentation.csproj", "{9B7ADEEB-4E99-4CD2-A763-89A5D04EA909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorsAppointmentScheduling.Data", "DoctorsAppointmentScheduling.Data\DoctorsAppointmentScheduling.Data.csproj", "{8241930C-61F8-455E-8B19-141720AA86AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorsAppointmentScheduling.Data", "DoctorsAppointmentScheduling.Data\DoctorsAppointmentScheduling.Data.csproj", "{8241930C-61F8-455E-8B19-141720AA86AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorsAppointmentScheduling.Domain", "DoctorsAppointmentScheduling.Domain\DoctorsAppointmentScheduling.Domain.csproj", "{86D01225-0BDB-4AAC-B516-BE648DB31B1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorsAppointmentScheduling.Domain", "DoctorsAppointmentScheduling.Domain\DoctorsAppointmentScheduling.Domain.csproj", "{86D01225-0BDB-4AAC-B516-BE648DB31B1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorsAppointmentScheduling.Application", "DoctorsAppointmentScheduling.Application\DoctorsAppointmentScheduling.Application.csproj", "{B6AF747A-F857-4FFC-9B11-80CC8BBF710D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorsAppointmentScheduling.Application", "DoctorsAppointmentScheduling.Application\DoctorsAppointmentScheduling.Application.csproj", "{B6AF747A-F857-4FFC-9B11-80CC8BBF710D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorsAppointmentScheduling.Ioc", "DoctorsAppointmentScheduling.Ioc\DoctorsAppointmentScheduling.Ioc.csproj", "{CD1037A2-A1EB-46F4-A755-9FEA908ED0FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorsAppointmentScheduling.Ioc", "DoctorsAppointmentScheduling.Ioc\DoctorsAppointmentScheduling.Ioc.csproj", "{CD1037A2-A1EB-46F4-A755-9FEA908ED0FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorsAppointmentScheduling.Presentation", "DoctorsAppointmentScheduling.Presentation\DoctorsAppointmentScheduling.Presentation.csproj", "{6B74307D-E53C-433A-8CE6-59A11A27AFA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9B7ADEEB-4E99-4CD2-A763-89A5D04EA909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B7ADEEB-4E99-4CD2-A763-89A5D04EA909}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B7ADEEB-4E99-4CD2-A763-89A5D04EA909}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B7ADEEB-4E99-4CD2-A763-89A5D04EA909}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8241930C-61F8-455E-8B19-141720AA86AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8241930C-61F8-455E-8B19-141720AA86AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8241930C-61F8-455E-8B19-141720AA86AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{CD1037A2-A1EB-46F4-A755-9FEA908ED0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD1037A2-A1EB-46F4-A755-9FEA908ED0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD1037A2-A1EB-46F4-A755-9FEA908ED0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B74307D-E53C-433A-8CE6-59A11A27AFA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B74307D-E53C-433A-8CE6-59A11A27AFA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B74307D-E53C-433A-8CE6-59A11A27AFA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B74307D-E53C-433A-8CE6-59A11A27AFA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -27,7 +27,7 @@ namespace DoctorsAppointmentScheduling.Domain.Entities.Account
         [MaxLength(15)]
         public string? PhoneNumber { get; set; }
         public bool? PhoneNumberConfirmed { get; set; }
-        public Guid RoleId { get; set; }
+        public long RoleId { get; set; }
         public Role Role { get; set; }
         public DateTime? LastLoginDate { get; set; }
         //public UserDetail UserDetail { get; set; }

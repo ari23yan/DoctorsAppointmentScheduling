@@ -21,6 +21,6 @@ namespace DoctorsAppointmentScheduling.Domain.Entities.Common
         public string? Description { get; set; }
         public string? Link { get; set; }
         public ICollection<Role> RolePermissions { get; set; }
-        public Guid? SubMenuId { get; set; }
+        public long? SubMenuId { get; set; }
     }
 }

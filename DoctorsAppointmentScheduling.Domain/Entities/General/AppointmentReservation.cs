@@ -18,7 +18,7 @@ namespace DoctorsAppointmentScheduling.Domain.Entities.General
         public long DoctorId { get; set; }
         public Doctor Doctor { get; set; }
         public DateTime AppointmentDate { get; set; }
-        public int AppointmentStatusId { get; set; }
+        public long AppointmentStatusId { get; set; }
         public AppointmentStatus AppointmentStatus { get; set; }
     }
 }

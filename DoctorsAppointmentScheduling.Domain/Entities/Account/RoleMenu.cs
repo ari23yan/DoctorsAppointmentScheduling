@@ -14,8 +14,8 @@ namespace DoctorsAppointmentScheduling.Domain.Entities.Account
     public class RoleMenu : BaseEntity
     {
         public long Id { get; set; }
-        public Guid RoleId { get; set; }
-        public Guid MenuId { get; set; }
+        public long RoleId { get; set; }
+        public long MenuId { get; set; }
         public Role Role { get; set; }
         public Menu Menu { get; set; }
     }
